@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Mirelle Maria de Oliveira Rocha
+* Email (@ccc): mirelle.maria.oliveira.rocha@ccc.ufcg.edu.br
+* Matrícula: 123210312
 
 # Roteiro: isAVL
 
