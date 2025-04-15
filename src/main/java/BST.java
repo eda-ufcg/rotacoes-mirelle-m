@@ -100,7 +100,6 @@ public class BST {
         
     }
     
-    
     /**
      * Retorna o nó que contém o valor máximo da árvore. Implementação recursiva.
      * @return o nó contendo o valor máximo da árvore ou null se a árvore estiver vazia.
@@ -186,7 +185,6 @@ public class BST {
             return aux;
         }
     }
-    
     
     /**
      * Implementação recursiva do método de adição.
@@ -293,8 +291,6 @@ public class BST {
         }
             
     }
-
-    
     
     /**
      * Busca o nó cujo valor é igual ao passado como parâmetro. Essa é a implementação 
@@ -398,44 +394,6 @@ public class BST {
      */
     public int size() {
         return this.size;
-    }
-    
-}
-
-
-class Node {
-    
-    int value;
-    Node left;
-    Node right;
-    Node parent;
-    
-    Node(int v) {
-        this.value = v;
-    }
-
-    public Node getLeft() {
-        return this.left;
-    }
-
-    public Node getRight() {
-        return this.right;
-    }
-
-    public Node getParent() {
-        return this.parent;
-    }
-
-    public boolean hasOnlyLeftChild() {
-        return (this.left != null && this.right == null);
-    }
-    
-    public boolean hasOnlyRightChild() {
-        return (this.left == null && this.right != null);
-    }
-
-    public boolean isLeaf() {
-        return this.left == null && this.right == null;
     }
     
 }
